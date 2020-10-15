@@ -1,0 +1,36 @@
+export const REGISTRATION_SUCCESS = "REGISTRATION_SUCCESS";
+export const REGISTRATION_FAIL = "REGISTRATION_FAIL";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+export const LOGOUT = "LOGOUT";
+export const USER_LOADED = "USER_LOADED";
+export const AUTH_ERROR = "AUTH_ERROR";
+export const INIT_SUCCESS = "INIT_SUCCESS";
+export const INIT_FAIL = "INIT_FAIL";
+export const DELETE_ACCOUNT = "DELETE_ACCOUNT";
+
+export const ADD_ALERT = "ADD_ALERT";
+export const REMOVE_ALERT = "REMOVE_ALERT";
+
+export const SET_QUIZ = "SET_QUIZ";
+export const SET_QUIZZES = "SET_QUIZZES";
+export const SORT_QUIZZES = "SORT_QUIZZES";
+export const SEARCH_QUIZZES = "SEARCH_QUIZZES";
+export const ADD_QUIZ = "ADD_QUIZ";
+export const ADD_QUESTION = "ADD_QUESTION";
+export const DELETE_QUIZ = "DELETE_QUIZ";
+export const DELETE_QUESTION = "DELETE_QUESTION";
+export const CLEAN_QUIZ = "CLEAN_QUIZ";
+
+export const SHOW_MY_QUIZZES = "SHOW_MY_QUIZZES";
+export const UPDATE_RATING = "UPDATE_RATING";
+export const CLEAN_TEMP_QUIZZES = "CLEAN_TEMP_QUIZZES";
+
+export const START_SESSION = "START_SESSION";
+export const STOP_SESSION = "STOP_SESSION";
+export const ADD_CORRECT_ANSW = "ADD_CORRECT_ANSW";
+export const ADD_WRONG_ANSW = "ADD_WRONG_ANSW";
+export const RESTART_QUIZ = "RESTART_QUIZ";
+export const INC_QUE_NUMBER = "INC_QUE_NUMBER";
+export const SET_DEFAULT_NUMBER = "SET_DEFAULT_NUMBER";
+export const STOP_QUIZ = "STOP_QUIZ";
