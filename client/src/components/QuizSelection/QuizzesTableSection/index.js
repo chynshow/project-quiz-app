@@ -6,14 +6,13 @@ import AngleRight from '../../Common/SVGs/AngleRight';
 import Pagination from '../../Common/Table/Pagination';
 import Table from '../../Common/Table';
 import InfoBlock from '../../Common/Table/InfoBlock';
-import Button from '../../Common/Button';
 
 const quizzes = [
-  { user: 'user-7', title: 'a-title-1', rating: '5', questions: '1' },
-  { user: 'user-6', title: 'b-title-2', rating: '5', questions: '2' },
-  { user: 'user-5', title: 'c-title-3', rating: '5', questions: '3' },
-  { user: 'user-4', title: 'd-title-4', rating: '5', questions: '4' },
-  { user: 'user-3', title: 'title-5', rating: '5', questions: '5' },
+  { user: 'John', title: 'JavaScript', rating: '4', questions: '10' },
+  { user: 'Bob', title: 'Sass', rating: '4', questions: '15' },
+  { user: 'Donna', title: 'UI/UX', rating: '5', questions: '20' },
+  { user: 'Joe', title: 'React', rating: '5', questions: '20' },
+  { user: 'Morty', title: 'Node.js', rating: '4', questions: '15' },
   { user: 'user-2', title: 'title-6', rating: '5', questions: '6' },
   { user: 'user-1', title: 'title-7', rating: '5', questions: '7' },
 ];
@@ -63,11 +62,11 @@ const QuizzesTableSection = () => {
           sortOptions={sortOptions}
         />
         <div className='c-quizzes-table__actions-panel'>
-          <Button
+          {/* <Button
             text='New quiz'
             className='c-btn--primary'
             onClick={handleAddNewQuiz}
-          />
+          /> */}
           {quizzes.length > pageSize ? (
             <Pagination
               handlePrevPage={handlePrevPage}
@@ -76,7 +75,7 @@ const QuizzesTableSection = () => {
               iconNext={<AngleRight width='1rem' />}
             />
           ) : null}
-          <button className='c-btn c-btn--primary'>Toggler</button>
+          {/* <button className='c-btn c-btn--primary'>Toggler</button> */}
         </div>
       </div>
     </section>

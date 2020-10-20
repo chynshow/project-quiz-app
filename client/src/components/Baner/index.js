@@ -15,7 +15,7 @@ const Baner = () => {
           <NavLink
             to='/select-quiz'
             activeClassName='c-link--active'
-            className='c-btn c-btn--primary'
+            className='c-link c-btn c-btn--primary'
           >
             Get started
           </NavLink>
@@ -29,6 +29,12 @@ const Baner = () => {
         </div>
       </section>
       <ImageSection src='bermuda-coming-soon.png' />
+      <p className='c-baner__images-license'>
+        Illustrations by Maria Shukshina from
+        <a className='c-link' href='https://icons8.com/'>
+          &nbsp;icons8.com
+        </a>
+      </p>
     </div>
   );
 };

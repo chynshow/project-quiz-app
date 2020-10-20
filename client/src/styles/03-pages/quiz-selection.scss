@@ -8,6 +8,16 @@
     left: 3%;
     z-index: 1;
   }
+  &__info-btn {
+    position: absolute;
+    top: 4%;
+    left: 6%;
+    z-index: 1;
+
+    // TEMP
+    font-size: 2rem;
+    font-weight: 500;
+  }
 }
 
 .l-quiz-select {
@@ -70,6 +80,9 @@
   &__actions-panel {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    // justify-content: space-between;
+
+    // TEMP
+    justify-content: center;
   }
 }
