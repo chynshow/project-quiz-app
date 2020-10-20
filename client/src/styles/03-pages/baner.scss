@@ -1,0 +1,32 @@
+.c-baner {
+  // grid-area: 1/1/-1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: 0.2s ease;
+  height: 100vh;
+
+  &__title {
+    font-size: 3rem;
+    color: inherit;
+  }
+
+  &__sub-title {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
+
+.l-title-section {
+  padding: 2rem;
+  max-width: 30vw;
+  animation: swoosh 2000ms linear both;
+}
+
+.l-btns-container {
+  display: flex;
+
+  button {
+    margin-right: 0.4rem;
+  }
+}

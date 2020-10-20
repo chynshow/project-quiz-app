@@ -1,0 +1,6 @@
+.c-img-section {
+  animation: transform-minus-x 2000ms linear both;
+  &__img {
+    width: 50rem;
+  }
+}

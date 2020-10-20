@@ -1,0 +1,35 @@
+@mixin bg-img($url, $size, $pos) {
+  background-image: url($url);
+  background-size: $size;
+  background-repeat: no-repeat;
+  background-position: $pos;
+}
+
+@mixin hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@mixin show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@mixin scale($name) {
+  .#{$name}-enter {
+    opacity: 0;
+    transform: scale(0);
+  }
+  .#{$name}-enter-active {
+    transform: scale(1);
+    opacity: 1;
+  }
+  .#{$name}-exit {
+    transform: scale(1);
+    opacity: 1;
+  }
+  .#{$name}-exit-active {
+    opacity: 0;
+    transform: scale(0);
+  }
+}

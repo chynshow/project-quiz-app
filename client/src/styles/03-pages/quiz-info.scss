@@ -1,0 +1,32 @@
+.c-quiz-info {
+  grid-area: 1/1/-1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: 0.2s ease;
+
+  &__section {
+  }
+  &__title {
+    padding: 3rem 0 1rem 0;
+  }
+  &__description {
+  }
+  &__img {
+    width: 35rem;
+  }
+
+  &__back-btn {
+    position: fixed;
+    top: 3.5%;
+    left: 2%;
+    animation: scale 2000ms linear normal both;
+    z-index: 2;
+  }
+}
+
+.l-sections-container {
+  height: 100%;
+  width: 80vw;
+  animation: transform-minus-y 2000ms linear both;
+}

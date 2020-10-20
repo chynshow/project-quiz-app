@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+// 01-base
+@import './styles/01-base/normalize.scss';
+@import './styles/01-base/base.scss';
+@import './styles/01-base/variables.scss';
+@import './styles/01-base/mixins.scss';
+@import './styles/01-base/mediaQueries.scss';
+@import './styles/01-base/layout.scss';
+@import './styles/01-base/typography.scss';
+@import './styles/01-base/animation.scss';
+// 02-components
+@import './styles/02-components/button.scss';
+@import './styles/02-components/link.scss';
+@import './styles/02-components/image-section.scss';
+@import './styles/02-components/form.scss';
+@import './styles/02-components/table.scss';
+// 03-pages
+@import './styles/03-pages/baner.scss';
+@import './styles/03-pages/quiz-info.scss';
+@import './styles/03-pages/quiz-selection.scss';
