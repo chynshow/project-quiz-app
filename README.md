@@ -1,12 +1,10 @@
 ## Quiz
 
-> Single page application
-
+Full-stack application created by the MERN stack.
 
 ### Demo
 
-  Coming soon :)
-
+Coming soon :)
 
 #### Screenshots of the app
 
@@ -17,41 +15,29 @@
 </p>
 </div>
 
-
-
-
 ### Technologies
 
-#### Front end
+#### Frontend
 
 - React
 - Sass
 - Axios
 
-### Back end
+### Backend
 
 - Nodejs
 - Express
 - MongoDB
 - JWT
 
-
 ## Getting started
-
 
   App requires to have node (4.x.x) and npm (2.x.x) installed.
 
-
 #### Start with installing the dependencies:
 
-
   Run `npm install` to install all required packages.
-
 
 #### Running:
 
   Use `npm run start` to start the dev server.
-
-
-
-
