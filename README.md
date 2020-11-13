@@ -1,6 +1,6 @@
 ## Quiz
 
-Full-stack application created by the MERN stack.
+Full-stack application built on the MERN stack.
 
 ### Demo
 
